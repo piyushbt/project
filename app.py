@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain.llms import CTransformers
-from langchain_community.llms import LlamaCpp
+##from langchain_community.llms import LlamaCpp
 ## Function To get response from LLAma 2 model
 
 def getLLamaresponse(input_text,no_words,blog_style):
